@@ -1,0 +1,71 @@
+#notfound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: var(--bg);
+}
+
+#notfound .notfound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 760px;
+    padding: 20px;
+}
+
+.notfound h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 180px;
+    line-height: 150px;
+    margin-bottom: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+.notfound h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 5px 0;
+    color: var(--textSoft);
+
+}
+
+.notfound p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 0;
+    text-transform: uppercase;
+    color: var(--textSoft);
+}
+
+.notfound a {
+    font-family: 'Titillium Web', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    color: var(--text);
+    border: none;
+    background: #5c91fe;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 2px;
+    margin-top: 15px;
+    transition: 0.5s all ease;
+}
+
+.notfound a:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 760px) {
+    .notfound .h1 {
+        height: 110px;
+        line-height: 110px;
+        font-size: 120px;
+    }
+}

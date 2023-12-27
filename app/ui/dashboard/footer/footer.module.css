@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--bgSoft);
+    color: var(--textSoft);
+    border-radius: 10px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.text {
+    font-size: 12px;
+}
